@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-void get_next (char *target, int *next, int len)
+void get_next (char *index, int *next, int len)
 {
     int i = 0, k = -1;
     next[0] = -1;
